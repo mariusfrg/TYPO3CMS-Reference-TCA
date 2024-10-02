@@ -66,7 +66,7 @@
             ],
 
     useSortable (boolean)
-        Activate drag & drop.
+        Activate drag & drop (enabledControls: dragdrop).
 
     showPossibleLocalizationRecords (boolean)
         Show unlocalized records which are in the original language, but not yet localized.
@@ -80,6 +80,7 @@
     enabledControls (array)
         Associative array with the keys 'info', 'new', 'dragdrop', 'sort', 'hide', 'delete', 'localize'. If the accordant
         values are set to a boolean value (true or false), the control is shown or hidden in the header of each record.
+        "useSortable" has to be set to 'true' to enable 'dragdrop'.
 
     showPossibleRecordsSelector (boolean)
         Can be used to hide the foreign record selector from the interface, even if you have a
